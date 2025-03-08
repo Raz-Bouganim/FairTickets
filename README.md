@@ -65,6 +65,7 @@ You can use the following credentials to test the functionality of the site:
 - You cannot add new events through the web interface; events must be added directly to the database.
 - You cannot add new tickets through the web interface; tickets must be added directly to the database.
 - You cannot buy tickets through the web.
+- You cannot use the search bar tool.
 
 ## Project Purpose
 
