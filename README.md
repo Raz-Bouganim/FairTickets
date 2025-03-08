@@ -1,6 +1,6 @@
 # FairTickets
 
-FairTickets is a web application for managing and purchasing event tickets. Users can sign up, log in, view upcoming events and manage their profiles.
+FairTickets is a web application for managing event tickets. Users can sign up, log in, view upcoming events and manage their profiles.
 
 ## Features
 
