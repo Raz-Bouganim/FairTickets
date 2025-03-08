@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairTickets</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html">FairTickets</a></h1>
+            <div class="nav-center">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search events...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <ul>
+                <li class="profile-dropdown">
+                    <a href="auth.html" id="auth-link"><i class="fas fa-user"></i></a>
+                    <div class="dropdown-content" id="profile-dropdown-content">
+                        <a href="profile.html" id="profile-link">Profile</a>
+                        <a href="transfer.html" id="transfer-link">Transfer</a>
+                        <a href="logout.html" id="logout-link">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Welcome to FairTickets!</h2>
+            <p>Your one-stop solution for buying and managing event tickets.</p>
+        </section>
+        
+        <section class="events-section">
+            <h2>Featured Events</h2>
+            <div class="event-list" id="featured-events-list">
+                <!-- Events will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <ul>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <h3>Contact</h3>
+        <ul>
+            <li>Email: contact@fairtickets.com</li>
+            <li>Phone: +123 456 7890</li>
+            <li>Address: 123 Fair St, Ticket City</li>
+        </ul>
+        <hr>
+        <p>&copy; 2025 FairTickets. All rights reserved.</p>
+    </footer>
+</body>
+</html>

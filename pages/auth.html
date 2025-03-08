@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairTickets - User Authentication</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body class="auth-body">
+    <div class="top-left-link">
+        <a href="../index.html">FairTickets</a>
+    </div>
+
+    <div class="auth-container">
+        <div class="auth-login-box" id="login-box">
+            <h2 style="font-size: 2em;">Log in</h2>
+            <p>Please enter your details</p>
+            <div class="auth-content">
+                <form class="auth-form" id="login-form">
+                    <div class="auth-input-group">
+                        <label>Email address</label>
+                        <input type="email" placeholder="Email address" name="email" required>
+                    </div>
+                    <div class="auth-input-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="auth-options">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot password</a>
+                    </div>
+                    <button type="submit" class="auth-btn">Log in</button>
+                </form>
+                <div class="auth-separator-vertical"></div>
+                <div class="auth-social-login">
+                    <button type="button" class="auth-google-btn">
+                        <img src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png" alt="Google Logo" class="auth-logo">
+                        Continue with Google
+                    </button>
+                    <button type="button" class="auth-facebook-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" class="auth-logo">
+                        Continue with Facebook
+                    </button>
+                    <button type="button" class="auth-apple-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" class="auth-logo">
+                        Continue with Apple
+                    </button>
+                </div>
+            </div>
+            <p class="auth-signup-text">Don't have an account? <a href="#" id="show-signup">Sign up</a></p>
+        </div>
+
+        <div class="auth-login-box" id="signup-box" style="display: none;">
+            <h2 style="font-size: 2em;">Sign up</h2>
+            <p>Please enter your details</p>
+            <div class="auth-content">
+                <form class="auth-form" id="signup-form">
+                    <div class="auth-input-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Full Name" name="full-name" required>
+                    </div>
+                    <div class="auth-input-group">
+                        <label>Email address</label>
+                        <input type="email" placeholder="Email address" name="email" required>
+                    </div>
+                    <div class="auth-input-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="auth-input-group">
+                        <label>Confirm Password</label>
+                        <input type="password" placeholder="Confirm Password" name="confirm-password" required>
+                    </div>
+                    <button type="submit" class="auth-btn">Sign up</button>
+                </form>
+                <div class="auth-separator-vertical"></div>
+                <div class="auth-social-login">
+                    <button type="button" class="auth-google-btn">
+                        <img src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png" alt="Google Logo" class="auth-logo">
+                        Continue with Google
+                    </button>
+                    <button type="button" class="auth-facebook-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" class="auth-logo">
+                        Continue with Facebook
+                    </button>
+                    <button type="button" class="auth-apple-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" class="auth-logo">
+                        Continue with Apple
+                    </button>
+                </div>
+            </div>
+            <p class="auth-signup-text">Already have an account? <a href="#" id="show-login">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
